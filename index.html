@@ -1,543 +1,917 @@
-<!doctype html>
-<html class="no-js" lang="en-US">
+<!DOCTYPE html>
+<html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig"><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
 
+	<head>
+    
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="cvCard - Responsive HTML5 vCard Template">
+        <meta name="keywords" content="vcard, html5, portfolio">
+        <meta name="author" content="Pixelwars">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>stonedcoder's.github.io</title>
-	<meta name="description" content="My Portfolio">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Fav Icon
-	============================================ -->
-	<link id="favicon" rel="icon" type="image/png" href="img/logo.ico" />
-	<!-- Google web fonts
-	============================================ -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
-	<!-- Bootstrap CSS
-	============================================ -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-	<!-- Font Awesome & Pe-icon-7-stroke CSS
-	============================================ -->
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
-	<!-- Animated Headlines CSS
-	============================================ -->
-	<link rel="stylesheet" type="text/css" href="css/headlines.css" />
-	<!-- Plugins CSS
-	============================================ -->
-	<link rel="stylesheet" type="text/css" href="css/plugins.css" />
-	<!-- Stylesheet CSS
-	============================================ -->
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	
-	<!-- Modernizr JS
-	============================================ -->
-	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-	
-</head>
-<body>
-<!-- Preloader
-============================================ -->
-<div class="preloader">
-	<div class="spinner">
-	  <div class="double-bounce1"></div>
-	  <div class="double-bounce2"></div>
-	</div>
-</div>
-<!-- Header
-============================================ -->
-<div class="header-area dark animated">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-                <!--Header Logo-->
-				<div class="header-logo float-left">
-					<a class="logo" href="index.html"> </a>
-				</div>
-                
+        <title>App</title>
+
+        <!-- FAV and TOUCH ICONS -->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+		
+		<script src="js/modernizr.custom.js"></script>
+         
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+            
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
+        <link rel="stylesheet" type="text/css" href="js/google-code-prettify/prettify.css">
+        <link rel="stylesheet" type="text/css" href="css/uniform.default.css">
+        <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+        <link rel="stylesheet" type="text/css" href="js/mediaelement/mediaelementplayer.css">
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        <!--[if lte IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/selectivizr-min.js"></script>
+        <![endif]--> 
+        
+        <link rel="stylesheet" type="text/css" href="style-switcher/style.css">
+        <link rel="stylesheet" class="base-skin" type="text/css" href="#">
+        
+        
+		<!-- InstanceBeginEditable name="head" -->
+        <!-- InstanceEndEditable -->
+        
+	</head>
+    
+    
+    
+	<body>
+    	
+        
+        
+        
+        <!-- CONTAINER -->
+		<div class="container" id="container">
+			
+            
+            
+            <!-- HEADER -->
+            <header class="header">
+            
+                <img src="images/site/avatar.png" alt="avatar">
+				<h1>Stonedcoder</h1>
+                <p>Hacker of all the things</p>
 				
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Intro Area
-============================================ -->
-<div id="intro" class="intro-area section overlay table" style="background-image: url('img/section-bg/6.png');">
-	<div class="table-cell">
-		<div class="container">
-			<div class="row">
-                <!--Intro Content-->
-				<div class="intro-content text-center col-xs-12">
-					<h1><span>Hello I'm</span>Stonedcoder</h1>
-					<h3 class="cd-headline clip">
-						<span></span>
-						<span class="cd-words-wrapper">
-                            <b class="is-visible">Data Scientist </b>
-                            <b>Android Developer</b>
-                            <b>Mentor</b>
-                            <b>Designer</b>
-                            <b>Elocutionist</b>
-                            
-
-                            
-						</span>
-					</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Scroll Down Button-->
-	<a class="scroll-down" data-scroll href="#about"><i></i></a>
-</div>
-<!-- About Area
-============================================ -->
-<div id="about" class="about-area section bg-dark pb-60 pt-100">
-    <div class="container">
-       
-       <!--Section Title-->
-        <div class="row">
-            <div class="section-title col-xs-12 text-center">
-                <h1>about <span>me</span></h1>
-            </div>
-        </div>
-        
-        <div class="row">
-            <!--About Image-->
-            <div class="about-image col-md-3 col-sm-5 mb-40">
-                <img src="img/3.jpeg" alt="">
-            </div>
-            <!--About Content-->
-            <div class="about-content col-md-5 col-sm-7 mb-40">
-                <h3>aka - Raunaq Verma</h3>
-                <p>Passionate android developer , specializing in cutting-edge UI development, incorporating the latest mobile technologies to build highly reactive user interface components , mobile apps, scalable back end systems and more.
-                <br>I am an avid functional programmer and an aspiring data-scientist, spending my free-time studying Machine Learning and AI .</br>Iam currently working as an developer, and Iam also leading and contributing to open-source projects.<br>      
-                </p>
-                
-            </div>
-            <!--Skills-->
-            <div class="skills col-md-4 col-xs-12 mb-40">
-                <h3>Skills</h3>
-                <p class="progress-text">Java</p>
-                <div class="progress"><div class="progress-bar" data-present="97%"></div></div>
-                <p class="progress-text">Dart</p>
-                <div class="progress"><div class="progress-bar" data-present="66%"></div></div>
-                <p class="progress-text">Kotlin</p>
-                <div class="progress"><div class="progress-bar" data-present="88%"></div></div>
-                <p class="progress-text">Python</p>
-                <div class="progress"><div class="progress-bar" data-present="92%"></div></div>
-                <p class="progress-text">R</p>
-                <div class="progress"><div class="progress-bar" data-present="95%"></div></div>
-                <p class="progress-text">MySql</p>
-                <div class="progress"><div class="progress-bar" data-present="94%"></div></div>
-                <p class="progress-text">Git</p>
-                <div class="progress"><div class="progress-bar" data-present="90%"></div></div>
-            </div>
-        </div>
-        
-    </div>
-</div>
-<!-- Funfact Area
-============================================ -->
-<div class="funfact-area section overlay pb-70 pt-100" style="background-image: url('img/section-bg/9.jpeg');">
-    <div class="container">
-       
-        <div class="row">
-            <!--Single Fact-->
-            <div class="single-fact text-center col-sm-3 col-xs-6 mb-30">
-                <i class="pe-7s-like2"></i>
-                <h1 class="counter">59</h1>
-                <p>Projects done</p>
-            </div>
-            <!--Single Fact-->
-            <div class="single-fact text-center col-sm-3 col-xs-6 mb-30">
-                <i class="pe-7s-coffee"></i>
-                <h1 class="counter">153</h1>
-                <p>Cups of Coffee</p>
-            </div>
-            <!--Single Fact-->
-            <div class="single-fact text-center col-sm-3 col-xs-6 mb-30">
-                <i class="pe-7s-cup"></i>
-                <h1 class="counter">4</h1>
-                <p>Awards Won</p>
-            </div>
-            <!--Single Fact-->
-            <div class="single-fact text-center col-sm-3 col-xs-6 mb-30">
-                <i class="pe-7s-smile"></i>
-                <h1 class="counter">624</h1>
-                <p>Happy Clients</p>
-            </div>
-        </div>
-        
-    </div>
-</div>
-<!-- Resume Area
-============================================ -->
-<div id="resume" class="resume-area section bg-dark pb-60 pt-100">
-    <div class="container">
-       
-       <!--Section Title-->
-        <div class="row">
-            <div class="section-title col-xs-12 text-center">
-                <h1>my <span>resume</span></h1>
-            </div>
-        </div>
-        
-        <div class="row">
-            <!--Resume Wrapper-->
-            <div class="resume-wrapper col-sm-6 col-xs-12 fix">
-                <!--Resume Title-->
-                <h3 class="resume-title">education</h3>
-                <!--Single Resume-->
-                <div class="single-resume mb-40">
-                    <span class="date">2015 - 2016</span>
-                    <h4>Android Developer Nanodegree - <span> Udacity</span></h4>
-                    <p>Build cloud-connected Android apps, responsiveness, created amazing user experiences with rich media , advanced concepts of Android development like app testing, integration of libraries etc and published it on Google Play  </p>
-                </div>
-                <!--Single Resume-->
-                <div class="single-resume mb-40">
-                    <span class="date">2012 - 2014</span>
-                    <h4>Computer Science Major - <span> St. Stephens High School</span></h4>
-                    <p>Learned to manipulate, analyze, and visualize data with Excel, SQL, and Tableau. Learn to uncover insights, communicate critical findings, and create data-driven solutions.</p>
-                </div>
-                <!--Single Resume-->
-                <div class="single-resume mb-40">
-                    <span class="date">2007 - 2012</span>
-                    <h4>Computer Science - <span> D.A.V Senior Secondary School</span></h4>
-                    <p>Learned the design and analysis of algorithms, enable to analyze networks and discover how individuals are connected.</p>
-                </div>
-            </div>
-            <!--Resume Wrapper-->
-            <div class="resume-wrapper col-sm-6 col-xs-12 fix">
-                <!--Resume Title-->
-                <h3 class="resume-title">experience</h3>
-                <!--Single Resume-->
-                <div class="single-resume mb-40">
-                    <span class="date">2017 - Present</span>
-                    <h4>Android Developer Lead - <span>Arbunize</span></h4>
-                    <p>Managing a team of both local and remote direct reports.Develop tools to improve developer productivity to bring new network to market. Use configuration management tools to deploy and maintain Wahez services .</p>
-                </div>
-                <!--Single Resume-->
-                <div class="single-resume mb-40">
-                    <span class="date">2017 - Present</span>
-                    <h4>Teaching Assisatnt - <span>Coding Blocks India</span></h4>
-                    <p>Guiding and Mentoring Students at Coding Blocks in Android App Development Course under Arnav Gupta.</p>
-                </div>
-                <!--Single Resume-->
-                <div class="single-resume mb-40">
-                    <span class="date">2017 - Present</span>
-                    <h4>Mentor - <span>Udacity</span></h4>
-                    <p>Guiding and Mentoring Students accross the globe in Android Developer Nanodegree by Google.</p>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
-<!-- Work Progress Area
-============================================ -->
-<div class="work-progress-area section overlay pb-70 pt-100" style="background-image: url('img/section-bg/2.jpg');">
-    <div class="container">
-       
-        <div class="row">
-            <!--Single Progress-->
-            <div class="single-progress text-center">
-                <i class="pe-7s-light"></i>
-                <h4>get idea</h4>
-            </div>
-            <!--Single Progress-->
-            <div class="single-progress text-center">
-                <i class="pe-7s-photo"></i>
-                <h4>design</h4>
-            </div>
-            <!--Single Progress-->
-            <div class="single-progress text-center">
-                <i class="pe-7s-server"></i>
-                <h4>develop</h4>
-            </div>
-            <!--Single Progress-->
-            <div class="single-progress text-center">
-                <i class="pe-7s-plug"></i>
-                <h4>debug</h4>
-            </div>
-            <!--Single Progress-->
-            <div class="single-progress text-center">
-                <i class="pe-7s-rocket"></i>
-                <h4>deliver</h4>
-            </div>
-                
-        </div>
-        
-    </div>
-</div>
-<!-- Portfolio Area
-============================================ -->
-<div id="portfolio" class="portfolio-area section bg-dark pt-100">
-    <div class="container">
-    
-        <!--Section Title-->
-        <div class="row">
-            <div class="section-title col-xs-12 text-center">
-                <h1>my <span>portfolio</span></h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <!--Portfolio Filter-->
-            <div class="filter-wrapper col-xs-12 text-center mb-30">
-                <h5></h5>
-                <div class="portfolio-filter">
-                    <button class="active" data-filter="*"></button>
-                    <button data-filter=".web"></button>
-                    <button data-filter=".uiux"></button>
-                    <button data-filter=".branding">Apps</button>
-                    <button data-filter=".print"></button>
-                </div>
-            </div>
-            <!--Portfolio Grid-->
-            <div class="portfolio-grid">
-                <!--Portfolio Item-->
-                <div class="item web col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-30">
-                    <a href="img/portfolio/big/dl2.jpg" data-image-popup class="single-portfolio">
-                        <img src="img/portfolio/dl1.jpg" alt="">
-                        <div class="content">
-                            <h4 class="title">Job-Recommendation System</h4>
-                            <span class="cat">Coding-blocks</span>
-                        </div>
-                    </a>
-                </div>
-                <!--Portfolio Item-->
-                <div class="item uiux col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
-                    <a href="img/portfolio/big/blocks2.jpg" data-image-popup class="single-portfolio">
-                        <img src="img/portfolio/blocks.jpg" alt="">
-                        <div class="content">
-                            <h4 class="title">EBooks - Android , Java , JavaScript </h4>
-                            <span class="cat">Coding-Blocks</span>
-                        </div>
-                    </a>
-                </div>
-                <!--Portfolio Item-->
-                <div class="item branding col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
-                    <a href="img/portfolio/big/gsoc2.jpg" data-image-popup class="single-portfolio">
-                        <img src="img/portfolio/gsoc.jpg" alt="">
-                        <div class="content">
-                            <h4 class="title">Google Summer of code</h4>
-                            <span class="cat">Coding-Blocks</span>
-                        </div>
-                    </a>
-                </div>
-        
-            
-                
-
-            </div>
-        </div>
-    
-    </div>
-</div>
-<!-- Service Area
-============================================ -->
-<div id="service" class="service-area section bg-dark pb-60 pt-70">
-    <div class="container">
-       
-       <!--Section Title-->
-        <div class="row">
-            <div class="section-title col-xs-12 text-center">
-                <h1> <span>services</span></h1>
-            </div>
-        </div>
-       
-        <div class="row">
-             <!--Single Service-->
-             <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
-                    <i class="pe-7s-phone"></i>
-                    <h4>app development</h4>
-                    <p>We don't build just apps , we craft top-notch mobile experiences .Be it social media, restaurants, health care, sports, education sector, etc. , we design and develop every type of Android Apps for smartphones and tablets. passionate and professional developers in crafting the highest quality mobile application for you.</p>
-                </div>
-
-
-            <!--Single Service-->
-            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
-                <i class="pe-7s-monitor"></i>
-                <h4>web design</h4>
-                <p>We are a fresh, innovative, creative and experienced team catering to all your design requirements. Our design services will cover all of your creative needs including graphic design, print, logo, corporate identity. </p>
-            </div>
-           
-            
-
-            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
-                <i class="pe-7s-tools"></i>
-                <h4>web development</h4>
-                <p>We develop scalable and extensive architecture which provides performance-driven and business-centric web applications to help your enterprise seamlessly connect, interact, operate and generate business value from simple browsers. Achieve higher and faster business value with enhanced technology excellence and cost optimization with customized web application development services.</p>
-            </div>
-        
-            <!--Single Service-->
-            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
-                <i class="pe-7s-paint"></i>
-                <h4>branding</h4>
-                <p>We provide a full-suite of services from naming and initial brand development, to strategic consulting and online/offline brand integration. Our services are highly-consultative in nature, and we take a team-based approach to helping your organization implement the best strategies for both your business and your brand.</p>
-            </div>
-            <!--Single Service-->
-            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
-                <i class="pe-7s-graph2"></i>
-                <h4>marketing</h4>
-                <p>Our SEO & ASO services would provide high ranking search engine results increasing the traffic on your website thus causing a huge increase in the number of your customers. Rather than merely providing the potential customers with the information about your company and the products you offer, we provide images of your products along with a convenient order and payment system to convert those ‘potential customers’ into ‘real customers’. Invest in online marketing Services and enjoy earning money even while you’re sleeping.</p>
-            </div>
-            <!--Single Service-->
-            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
-                <i class="pe-7s-headphones"></i>
-                <h4>customer support</h4>
-                <p>Our Customer service solution includes administrative support, acquisition, helpdesk support, loyalty and retention  and Process optimization support. We enable customer’s choice of multi-channel support through social media, web based, email etc.</p>
-            </div>
-            
-        </div>
-        
-    </div>
-</div>
-<!-- Testimonial Area
-============================================ -->
-<div class="testimonial-area section overlay pb-100 pt-100" style="background-image: url('img/section-bg/images.jpg');">
-    <div class="container">
-       
-        <div class="row">
-               
-            <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-                <!--Testimonial Slider-->
-                <div class="testimonial-slider text-center">
-                    <!--Single Testimonial-->
-                    <div class="single-testimonial">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Raunaq was one of the attendees at our (Coding Blocks) Android Development programme. He was one of the best students, and as a result, he continued to work with me in future batches as a Teaching Assistant as well. 
-                            I have found him to be an efficient Android developer with a very good understanding of the Android APIs and architecture. He also has a keen interest in the fields of Machine Learning and Computer Vision and has made quite a few good projects in that direction as well..</p>
-                        <h5>Arnav Gupta - Coding Blocks India</h5>
-                    </div>
-                    <!--Single Testimonial-->
-                    <div class="single-testimonial">
-                        <i class="fa fa-quote-left"></i>
-                        <p>If you're looking for a seriously committed professional and loyal member for your organization then Mr. Raunaq Verma is more than a worthy candidate for any programming position. 
-
-                            His attention to detail, thoroughness and ability to deliver consistently with quality is beyond that of most I've ever managed.</p>
-                        <h5>Dheeraj Singh - Arbunize</h5>
-                    </div>
-                    <!--Single Testimonial-->
-                    <div class="single-testimonial">
-                        <i class="fa fa-quote-left"></i>
-                        <p>We were students together at udacity raunaq likes to keep putting efforts especially while or even after he gets stuck with anything related to work but as much i know him he believes in putting great deeds for his passion! as a person he doesn't believe in giving up .</p>
-                        <h5>Ish Joisher - Udacity </h5>
-                    </div>
+                <!-- NAV MENU -->
+                <ul class="vs-nav">
                     
-                </div>
-            </div>
+                    <!-- InstanceBeginEditable name="Menu-Content" -->
+                    
+                   	<li><a href="#/about">about me</a></li>
+                    <li><a href="#/portfolio">ping</a></li>
+                    <li><a href="#/contact">portfolio</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#/resume">resume</a></li>
+                    
+                    <!-- InstanceEndEditable -->
+                	
+                </ul>
+                <!-- NAV MENU -->
                 
-        </div>
-        
-    </div>
-</div>
-
-
-<!-- Footer Area
-============================================ -->
-<div id="footer" class="footer-area section overlay" style="background-image: url('img/section-bg/08.png');">
-    <!--Contact Area-->
-    <div id="contact" class="contact-area section pb-45 pt-100">
-        <div class="container">
-
-           <!--Section Title-->
-            <div class="row">
-                <div class="section-title white col-xs-12 text-center">
-                    <h1>contact <span>me</span></h1>
+                <!-- SEARCH --> 
+                <div class="header-search">
+                    <form role="search" method="get" id="search-form" action="#">
+                      <input type="text" value="" name="s" id="search" placeholder="Enter Keyword">
+                      <input type="submit" id="search-submit" title="Search" value="→">
+                    </form>
                 </div>
-            </div>
+                <!-- SEARCH -->
+                
+			</header>
+            <!-- HEADER -->
+            
+            
+            
+            
+            
+            <!-- WRAPPER -->
+			<div class="wrapper">
+            
+            
+            
+				<!-- InstanceBeginEditable name="Page-Content" -->
+                
+                
+				<!-- PAGE : ABOUT -->
+				<section id="about" class="page">
+					<div class="content">
+                    
+                    
+                       
+                    
+                    	
+                        <!-- row -->
+                        <div class="row">
+                        	
+                            <!-- column 8/12 -->
+                        	<div class="col-md-8">
+                            	
+                                <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT ME</span></h2>
+                                
+                                <!-- intro -->
+                                <div class="intro">
+                        	
+                                    <h2>
+                                        
+                                        Hello. I am
+                                    
+                                        <span class="rotate-words">
+                                            <span>a Android Mentor.</span>
+                                            <span>a Speaker.</span>
+                                            <span>a RaspberryPi evangalist .</span>
+                                            
+                                        </span>
+                                        
+                                        <br> 
+                                        an avid functional programmer and an aspiring data-scientist, spending my free-time studying Machine Learning and AI .
 
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12">
-
-                    <!--Contact Info-->
-                    <div class="row">
-                        <!--Single Contact Info-->
-                        <div class="single-contact-info text-center col-sm-4 col-xs-12 mb-40">
-                            <i class="icon pe-7s-phone"></i>
-                            <p>+91-9999074221</p>
-                            <p>+91-9999074228</p>
-                        </div>
-                        <!--Single Contact Info-->
-                        <div class="single-contact-info text-center col-sm-4 col-xs-12 mb-40">
-                            <i class="icon pe-7s-mail-open"></i>
-                            <p>raunaq@cb.lk</p>
+                                        <br> 
+                                        Iam currently working as an developer, and Iam also leading and contributing to   <strong>open-source</strong> projects.
+                                        
+                                    </h2>
+                                      
+                                </div>
+                                <!-- intro -->
+                                
+                                
+                            </div>
+                            <!-- column 8/12 -->
+                        	
+                            
+                            
+                            
                             
                         </div>
-                        <!--Single Contact Info-->
-                        <div class="single-contact-info text-center col-sm-4 col-xs-12 mb-40">
-                            <i class="icon pe-7s-map"></i>
-                            <p>New Delhi , India</p>
-                        </div>
-
-                    </div>
-
-                    <div class="row mt-30">
-                        <!--Contact Form-->
-                        <div class="contact-form">
-                            <form action="#">
-                                <div class="col-sm-6 col-xs-12">
-                                    <input type="text" placeholder="Name">
-                                    <input type="email" placeholder="Email">
-                                    <input type="text" placeholder="Subject">
+                        <!-- row -->
+                        
+                        
+                        	      
+                                
+                        <h2 class="section-title"><span><i class="fa fa-magic"></i>SERVICES</span></h2>
+                                    
+                        <!-- SERVICES -->
+                        <div class="row">
+                            
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- service -->
+                                <div class="service color1">
+                                    <i class="fa fa-html5"></i>
+                                    <h4>Web  Development</h4>
+                                    <p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content. </p>
                                 </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <textarea placeholder="Message"></textarea>
-                                    <input type="submit" value="Submit">
+                                <!-- service -->
+                                
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- service -->
+                                <div class="service color2">
+                                    <i class="fa fa-font"></i>
+                                    <h4>App Development</h4>
+                                    <p>I can design beautiful type faces for both digital and print media. It is a long established fact that a reader will be distracted. </p>
                                 </div>
-                            </form>
+                                <!-- service -->
+                                
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- service -->
+                                <div class="service color3">
+                                    <i class="icon-smashmag"></i>
+                                    <h4>IOT Development</h4>
+                                    <p>I write about web design. It is a long established fact that a reader will be distracted by the readable content. </p>
+                                </div>
+                                <!-- service -->
+                                
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- service -->
+                                <div class="service color4">
+                                    <i class="fa fa-rocket"></i>
+                                    <h4>Hacking</h4>
+                                    <p>I have strong project management skills. It is a long established fact that a reader will be distracted by the readable content. </p>
+                                </div>
+                                <!-- service -->
+                                
+                            </div>
+                            
                         </div>
+                        <!-- SERVICES -->
+                        
+                        
+                        
+                        
+                        
+                        <h2 class="section-title"><span><i class="icon-layers-alt"></i>WORK PROCESS</span></h2>
+                        
+                        <!-- PROCESS -->
+                        <div class="row">
+                            
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                
+                                <!-- process -->
+                                <div class="process">
+                                    
+                                    <div class="process-box">
+                                        <i class="icon-lamp"></i>
+                                        <h4>IDEA</h4>
+                                    </div>
+                                    
+                                </div>
+                                <!-- process -->
+                                
+                            </div>
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                
+                                <!-- process -->
+                                <div class="process">
+                                    <div class="process-box">
+                                        <i class="fa fa-puzzle-piece"></i>
+                                        <h4>CONCEPT</h4>
+                                    </div>
+                                </div>
+                                <!-- process -->
+                                
+                            </div>
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                
+                                <!-- process -->
+                                <div class="process">
+                                    
+                                    <div class="process-box">
+                                        <i class="icon-brush"></i>
+                                        <h4>DESIGN</h4>
+                                    </div>
+                                    
+                                </div>
+                                <!-- process -->
+                                
+                            </div>
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                
+                                <!-- process -->
+                                <div class="process">
+                                    
+                                    <div class="process-box">
+                                        <i class="fa fa-cube"></i>
+                                        <h4>DEVELOP</h4>
+                                    </div>
+                                    
+                                </div>
+                                <!-- process -->
+                                
+                            </div>
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                
+                                <!-- process -->
+                                <div class="process">
+                                    
+                                    <div class="process-box">
+                                        <i class="fa fa-bug"></i>
+                                        <h4>TEST</h4>
+                                    </div>
+                                    
+                                </div>
+                                <!-- process -->
+                                
+                            </div>
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                
+                                <!-- process -->
+                                <div class="process">
+                                    
+                                    <div class="process-box">
+                                        <i class="fa fa-rocket"></i>
+                                        <h4>LAUNCH</h4>
+                                    </div>
+                                    
+                                </div>
+                                <!-- process -->
+                                
+                            </div>
+                            
+                        </div>
+                        <!-- PROCESS -->
+                        
+                        
+                        
+                        
+                        
+                        
+                        <h2 class="section-title"><span>FUN FACT</span></h2>
+                                    
+                        <!-- FUN FACT -->
+                        <div class="row">
+                            
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- fun-fact -->
+                                <div class="fun-fact">
+                                    <i class="icon-instagram-1"></i>
+                                    <h4>24000 SHOTS CAPTURED</h4>
+                                </div>
+                                <!-- fun-fact -->
+                                
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- fun-fact -->
+                                <div class="fun-fact">
+                                    <i class="icon-jabber"></i>
+                                    <h4>37 PROJECTS COMPLETED</h4>
+                                </div>
+                                <!-- fun-fact -->
+                                
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- fun-fact -->
+                                <div class="fun-fact">
+                                    <i class="icon-child"></i>
+                                    <h4>87 SATISFIED CUSTOMERS</h4>
+                                </div>
+                                <!-- fun-fact -->
+                                
+                            </div>
+                            
+                            <div class="col-sm-6 col-md-3">
+                                
+                                <!-- fun-fact -->
+                                <div class="fun-fact">
+                                    <i class="icon-bicycle"></i>
+                                    <h4>1450 KM CYCLED</h4>
+                                </div>
+                                <!-- fun-fact -->
+                                
+                            </div>
+                        
+                            
+                        </div>
+                        <!-- FUN FACT -->
+                        
+                        
+                        
+                        
+                        
+                                    
 
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!--Footer Bottom-->
-    <div class="footer-bottom section pb-35 pt-35">
-        <div class="container">
-
-            <div class="row">
-
-                <!--Social-->
-                <div class="social text-center col-xs-12 mb-15">
-                    
-                    <a href="https://twitter.com/Vraunaq"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/raunaq-verma-584b3112a/"><i class="fa fa-linkedin"></i></a>
+                        
+                        
+                       
+					</div>
+				</section>
+                <!-- PAGE : ABOUT -->
                 
-                </div>
-                <!--Copyright-->
-                <div class="footer-copyright text-center col-xs-12">
-                    <p>Copyright &copy; 2017 Stonedcoder</a>, All Right Reserved</p>
-                </div>
-            </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                <!-- PAGE : CONTACT -->
+				<section id="contact" class="page">
+					<div class="content">
+                        	
+                           
 
-        </div>
-    </div>
+                        <!-- row -->
+                        <div class="row">
+                            
+                            
+                            <!-- column 6/12 -->
+                            <div class="col-md-6">
+                                             
+                                <h2 class="section-title"><span><i class="icon-address-book"></i>LET'S GET IN TOUCH</span></h2>
+                                
+                                <!-- LETTER -->
+                                <div class="letter">
+                                    
+                                   
+                                    
+                                    <div class="stamp">
+                                      <img src="images/site/stamp-image.png" alt="stamp">
+                                    </div>
+                                  
+                                    <div class="letter-info">
+                                        <p><i class="icon-at"></i>raunaq@cb.lk / stonedcoder@jragrau.com</p>
+                                        <p><i class="icon-phone"></i>+91-9999074221</p>
+                                        <p><i class="icon-location"></i>Punjabi Bagh West, New Delhi , India</p>
+                                    </div>
+                                    
+                                  </div>    
+                                  <!-- LETTER -->
+                               
+                            
+                              
+                                  <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP ME A MAIL</span></h2>
+                                        
+                                    
+                                  <!-- .contact-form -->
+                                  <div class="contact-form">
+                                    
+                                      <form id="contact-form" action="send-mail.php.html" method="post">
+                                        
+                                        <!-- enter mail subject here -->
+                                        <input type="hidden" name="subject" id="subject" value="You have a new message from cvCard!">
+                                        
+                                        <p>
+                                          <label for="name">NAME</label>
+                                          <input type="text" name="name" id="name" class="required">
+                                        </p>
+                                        
+                                        <p>
+                                          <label for="email">EMAIL</label>
+                                          <input type="text" name="email" id="email" class="required email">
+                                        </p>
+                                        
+                                        
+                                        <p>
+                                          <label for="message">MESSAGE</label>
+                                          <textarea name="message" id="message" class="required"></textarea>
+                                        </p>
+                                       
+                                        <p>
+                                          <input type="submit" class="submit button primary" value="SEND">
+                                        </p>
+                                        
+                                      </form>
+                                      
+                                  </div>
+                                  <!-- .contact-form -->
+                            
+                          </div>
+                          <!-- column 6/12 -->
+                          
+                          
+                          <!-- column 6/12 -->
+                          <div class="col-md-6">
+                          
+                          
+                                  <h2 class="section-title"><span><i class="icon-chat"></i>LET'S SOCIALIZE</span></h2>
+                          
+                                  <!-- SOCIAL -->
+                                  <ul class="social">
+                                    
+                                    <li><a class="twitter" href="#"></a></li>
+                                    <li><a class="linkedin" href="#"></a></li>
+                                   
+                                    <li><a class="github" href="#"></a></li>
+                                    
+                                    <li><a class="instagram" href="#"></a></li>
+                                    
+                                    
+                                  </ul>
+                                  <!-- SOCIAL -->
+                                  
+                                  
+                                  <h2 class="section-title"><span><i class="icon-location"></i>LOCATION</span></h2>                                                   
+                                  <!-- GOOGLE MAP -->
+                                  <div class="map">
+                                    <div data-latitude="28.6637055" data-longitude="77.1195832," data-zoom="4" id="map-canvas" class="map-canvas"></div>
+                                </div>
+                                <!-- GOOGLE MAP -->
+                                  
+                          </div>
+                          <!-- column 6/12 --><!-- column 6/12 -->
+                            
+                            
+                            
+                        </div>    				
+                        <!-- row -->      
+                                          
+                                              
+                                          
+                    </div>
+				</section>
+                <!-- PAGE : CONTACT -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <!-- PAGE : RESUME -->
+				<section id="resume" class="page">
+					<div class="content">
+						<!-- CONTENT -->
+                                       
+                                        
+                     	<!-- row -->
+                        <div class="row">
+                        
+                        	
+                            <!-- col 6/12 -->
+                            <div class="col-md-6">
+                                          
+                                <!-- timeline -->
+                                <div class="timeline">
+                                
+                                    <h2><i class="fa fa-flask"></i>WORK HISTORY</h2>
+                                    
+                                    <div class="event current">
+                                        <span class="date">2019</span>
+                                        <h4>Co-Chief Executive Officer</h4>
+                                        <h5>J.Ragrau Industries</h5>
+                                        <p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                    
+                                    <div class="event current">
+                                        <span class="date">2019</span>
+                                        <h4>Android Mentor</h4>
+                                        <h5>Udacity</h5>
+                                        <p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                    <div class="event current">
+                                        <span class="date">2019</span>
+                                        <h4>Project Reviewer</h4>
+                                        <h5>Udacity</h5>
+                                        <p>I am an Elite Author at Envato. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
 
-</div>
 
-<!-- jQuery 1.12.0
-============================================ -->
-<script src="js/vendor/jquery-1.12.0.min.js"></script>
-<!-- Bootstrap JS
-============================================ -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- Animated Headlines JS
-============================================ -->
-<script type="text/javascript" src="js/headlines.js"></script>
-<!-- Plugins JS
-============================================ -->
-<script type="text/javascript" src="js/plugins.js"></script>
-<!-- Main JS
-============================================ -->
-<script type="text/javascript" src="js/main.js"></script>
+                                    <div class="event current">
+                                        <span class="date">2018</span>
+                                        <h4>Python Developer</h4>
+                                        <h5>Cisco Systems</h5>
+                                        <p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                    
+                                    <div class="event">
+                                        <span class="date">2018</span>
+                                        <h4>Mentor</h4>
+                                        <h5>Coding Blocks Dehradun</h5>
+                                        <p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                    <div class="event">
+                                        <span class="date">2018</span>
+                                        <h4>Senior Android Developer Lead</h4>
+                                        <h5>Envato Inc.</h5>
+                                        <p>I am an Elite Author at Envato. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                               
 
-</body>
+                                    <div class="event current">
+                                        <span class="date">2017</span>
+                                        <h4>Teaching Associate</h4>
+                                        <h5>Coding Blocks Delhi</h5>
+                                        <p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                    
+                                    <div class="event">
+                                        <span class="date">2016</span>
+                                        <h4>Embedded Systems Developer</h4>
+                                        <h5>Coding Blocks Dehradun</h5>
+                                        <p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                   
+                               </div>
+                               <!-- timeline -->
+                               
+                               
+                               
+                               
+                              
+                              </div> 
+                              <!-- col 6/12 -->
+                               
+                               
+                               
+                               <!-- col 6/12 -->
+                               <div class="col-md-6">
+                                
+                                    <h2 class="section-title"><span><i class="icon-cog-1"></i>DEVELOPMENT SKILLS</span></h2>
+                                
+                                    <!-- DEV SKILLS -->
+                                    <div class="skillset">
+                                    
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Android</h4>
+                                            <div class="bar" data-percent="100">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Python</h4>
+                                            <div class="bar" data-percent="85">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Makefile</h4>
+                                            <div class="bar" data-percent="60">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>R</h4>
+                                            <div class="bar" data-percent="90">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Lua</h4>
+                                            <div class="bar" data-percent="66">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>RaspberryPi</h4>
+                                            <div class="bar" data-percent="88">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Machine Learning / AI </h4>
+                                            <div class="bar" data-percent="74">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
 
 
-</html>
+
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Databases SQL/No-SQL</h4>
+                                            <div class="bar" data-percent="80">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Firebase</h4>
+                                            <div class="bar" data-percent="97">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>Algorithm Development</h4>
+                                            <div class="bar" data-percent="67">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+
+                                    
+                                    </div>
+                                    <!-- DEV SKILLS -->
+                                    
+                                    
+                                    
+                                    <h2 class="section-title"><span><i class="icon-brush"></i>DESIGN SKILLS</span></h2>
+                                    
+                                    <!-- DESIGN SKILLS -->
+                                    <div class="skillset">
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>HTML/CSS</h4>
+                                            <div class="bar" data-percent="90">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>JavaScript</h4>
+                                            <div class="bar" data-percent="89">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                        
+                                        <!-- .skill-unit -->
+                                        <div class="skill-unit">
+                                            <h4>React</h4>
+                                            <div class="bar" data-percent="70">
+                                                <div class="progress"></div>
+                                            </div>
+                                        </div>
+                                        <!-- .skill-unit -->
+                                    
+                                    </div>
+                                    <!-- DESIGN SKILLS -->
+                                    
+                                    
+                                    
+                                    <h2 class="section-title"><span><i class="icon-comment"></i>TESTIMONIALS</span></h2>
+                                    
+                                    <!-- testo-group -->
+                                    <div class="testo-group">
+                                       
+                                         
+                                        <!-- Testimonial -->
+                                        <div class="testo">
+                                            <img src="images/site/testo-03.jpg" alt="someone">
+                                            
+                                                <h4>Arnav Gupta <span>Mobile Platform at Zomato || Co-founder of CodingBlocks </span></h4>
+                                                <p>Raunaq was one of the attendees at our (Coding Blocks) Android Development programme. He was one of the best students, and as a result, he continued to work with me in future batches as a Teaching Assistant as well. 
+                                                    I have found him to be an efficient Android developer with a very good understanding of the Android APIs and architecture. He also has a keen interest in the fields of Machine Learning and Computer Vision and has made quite a few good projects in that direction as well.</p>
+                                            
+                                        </div>
+                                        <!-- Testimonial -->
+
+                                        <!-- Testimonial -->
+                                        <div class="testo">
+                                            <img src="images/site/testo-01.jpg" alt="someone">
+                                            <h4>Dheeraj Singh<span>Sr.Web Design Expert</span></h4>
+                                            <p>If you're looking for a seriously committed professional and loyal member for your organization then Mr. Raunaq Verma is more than a worthy candidate for any programming position. 
+
+                                                His attention to detail, thoroughness and ability to deliver consistently with quality is beyond that of most I've ever managed.</p>
+                                           
+                                        </div>
+                                        <!-- Testimonial -->
+                                        
+                                        <!-- Testimonial -->
+                                        <div class="testo">
+                                            <img src="images/site/testo-02.jpg" alt="someone">
+                                         
+                                                <h4>Ish Joisher <span>Android developer</span></h4>
+                                                <p>We were students together at udacity raunaq likes to keep putting efforts especially while or even after he gets stuck with anything related to work but as much i know him he believes in putting great deeds for his passion! as a person he doesn't believe in giving up</p>
+                                           
+                                        </div>
+                                        <!-- Testimonial -->
+                                       
+                                    
+                                    </div>
+                                    <!-- testo-group -->
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <h2 class="section-title"><span><i class="icon-doc-alt"></i>DOWNLOAD MY CV</span></h2>
+                                    
+                                    <p>You can download my CV in pdf format if you like. I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <div class="download-button">
+                                        <a href="#" class="button primary">DOWNLOAD CV</a>
+                                    </div>
+                                    <!-- DOWNLOAD BUTTON -->
+                                    
+                                    
+                                    <h2 class="section-title"><span><i class="icon-linkedin"></i>VIEW MY LINKEDIN PROFILE</span></h2>
+                                    
+                                    <p>You can view my LinkedIn profile. I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    
+                                    <!-- DOWNLOAD BUTTON -->
+                                    <div class="download-button">
+                                        <a href="https://www.linkedin.com/in/raunaq-verma-584b3112a/" class="button primary">MY LINKEDIN PROFILE</a>
+                                    </div>
+                                    <!-- DOWNLOAD BUTTON -->
+                                    
+                                
+                               </div>
+                               <!-- col 6/12 -->
+                        
+                        
+                        </div>                       
+                        <!-- row -->                   
+                                            
+                                           
+                                            
+                                		
+                    </div>
+                    <!-- CONTENT -->
+					
+				</section>
+                <!-- PAGE : RESUME -->
+                
+                
+                
+            
+            	<!-- InstanceEndEditable -->
+            
+            
+                
+			</div>
+            <!-- WRAPPER -->
+            
+            
+		</div>
+        <!-- CONTAINER -->
+        
+        
+        
+        <!-- InstanceBeginEditable name="Body-End-Content" -->
+        
+        
+        <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+        <div class="p-overlay"></div>
+        <div class="p-overlay"></div>
+        
+
+        <!-- ALERT : used for contact form mail delivery alert -->
+        <div class="site-alert animated"></div>
+        
+        <!-- InstanceEndEditable -->
+        
+        
+		
+        
+        <!-- SCRIPTS -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery.address-1.5.min.js"></script>
+        <script src="js/triple.layout.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/nprogress/nprogress.js"></script>
+        <script src="js/fastclick.js"></script>
+		<script src="js/jquery.imagesloaded.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.uniform.min.js"></script>
+        <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="js/jquery.tooltipster.min.js"></script>
+        <script src="js/google-code-prettify/prettify.js"></script>
+        <script src="js/twitterFetcher_v10_min.js"></script>
+        <script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+        <script src="js/send-mail.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+        <script src="js/main.js"></script>
+        
+        
+        
+       
+        
+		
+        
+	</body>
+<!-- InstanceEnd --></html>
