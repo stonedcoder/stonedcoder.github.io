@@ -1,3 +1,5 @@
+"use client";
+
 // src/components/AboutSection.tsx
 
 import React, { useRef, useEffect } from 'react';
@@ -51,16 +53,10 @@ const AboutSection: React.FC = () => {
       <h2 className="text-4xl font-bold text-notion-text-primary text-center mb-12">About Me</h2>
       <div className="max-w-3xl mx-auto text-notion-text-primary space-y-6">
         <p className="text-lg leading-relaxed">
-          Hello! I'm [Your Name], a passionate frontend developer with a knack for building beautiful
-          and functional web applications. My journey in tech started with a fascination for how
-          interactive experiences come to life on the web, and it has since grown into a dedication
-          to crafting high-quality, user-centric digital products.
+          I’m a systems-focused technical professional with over four years of experience working across cloud telephony, APIs, data platforms, and production-grade systems. My work spans operating and optimizing global VoIP infrastructure, supporting contact center platforms, and ensuring reliability at scale. At Exotel, I work closely with call routing, DID mapping across 191 countries, node flows, API debugging, and custom operational reporting—helping improve uptime, performance, and customer experience through data-driven decisions and structured root cause analysis.
         </p>
         <p className="text-lg leading-relaxed">
-          I specialize in modern JavaScript frameworks like React and Next.js, and I'm constantly
-          exploring new technologies to stay at the forefront of web development. My goal is to
-          create elegant solutions that not only meet user needs but also provide a delightful
-          experience.
+          Before this, I’ve supported API-driven products, manufacturing systems, and machine-learning–based platforms, collaborating with engineering, data, and business teams to resolve complex issues and improve workflows. This combination of SaaS operations and manufacturing discipline has shaped how I approach problems: understand the system end-to-end, identify failure points, and build durable fixes instead of temporary patches. I enjoy working close to infrastructure and data, and I’m continuously expanding my skill set toward full-stack and platform engineering.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">

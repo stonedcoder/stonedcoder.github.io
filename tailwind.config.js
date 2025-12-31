@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './src/**/*.{js,ts,jsx,tsx,mdx}',
     './public/**/*.html',
@@ -23,16 +24,15 @@ module.exports = {
         '5xl': ['3rem', { lineHeight: '1' }], // 48px
       },
       colors: {
-        // Notion-like colors
         notion: {
-          'text-primary': 'rgb(55, 53, 47)',
-          'bg-primary': 'rgb(255, 255, 255)',
-          'gray-100': 'rgb(247, 246, 245)', // Lightest gray for backgrounds/borders
-          'gray-200': 'rgb(235, 236, 237)',
-          'gray-300': 'rgb(224, 224, 224)',
-          'gray-400': 'rgb(200, 200, 200)', // More prominent gray
-          'gray-500': 'rgb(150, 150, 150)', // Secondary text
-          'accent-blue': 'rgb(37, 99, 235)', // A muted blue example for links/highlights
+          'text-primary': 'var(--color-notion-text-primary)',
+          'bg-primary': 'var(--color-notion-bg-primary)',
+          'gray-100': 'var(--color-notion-gray-100)',
+          'gray-200': 'var(--color-notion-gray-200)',
+          'gray-300': 'var(--color-notion-gray-300)',
+          'gray-400': 'var(--color-notion-gray-400)',
+          'gray-500': 'var(--color-notion-gray-500)',
+          'accent-blue': 'var(--color-notion-accent-blue)',
         },
       },
     },

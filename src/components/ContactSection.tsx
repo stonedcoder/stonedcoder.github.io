@@ -1,7 +1,7 @@
 // src/components/ContactSection.tsx
 
 import React from 'react';
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 import Link from 'next/link';
 
 const ContactSection: React.FC = () => {
@@ -20,7 +20,7 @@ const ContactSection: React.FC = () => {
           <Mail size={36} strokeWidth={1.5} />
         </Link>
         <Link
-          href="https://github.com/yourusername" // Replace with actual GitHub profile
+          href="http://github.com/stonedcoder"
           target="_blank"
           rel="noopener noreferrer"
           className="text-notion-text-primary hover:text-notion-accent-blue transition-colors duration-200"
@@ -29,22 +29,13 @@ const ContactSection: React.FC = () => {
           <Github size={36} strokeWidth={1.5} />
         </Link>
         <Link
-          href="https://linkedin.com/in/yourprofile" // Replace with actual LinkedIn profile
+          href="https://www.linkedin.com/in/raunaq-verma/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-notion-text-primary hover:text-notion-accent-blue transition-colors duration-200"
           aria-label="LinkedIn"
         >
           <Linkedin size={36} strokeWidth={1.5} />
-        </Link>
-        <Link
-          href="https://twitter.com/yourusername" // Replace with actual Twitter profile
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-notion-text-primary hover:text-notion-accent-blue transition-colors duration-200"
-          aria-label="Twitter"
-        >
-          <Twitter size={36} strokeWidth={1.5} />
         </Link>
       </div>
     </section>

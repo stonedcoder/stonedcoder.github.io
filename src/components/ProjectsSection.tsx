@@ -1,3 +1,5 @@
+"use client";
+
 // src/components/ProjectsSection.tsx
 
 import React, { useRef, useEffect } from 'react';

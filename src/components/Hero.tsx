@@ -15,10 +15,10 @@ const Hero: React.FC = () => {
         />
       </div>
       <h1 className="text-5xl font-bold text-notion-text-primary mb-4">
-        Hi, I'm [Your Name]
+        Greetings, I'm Raunaq Verma
       </h1>
       <p className="text-xl text-notion-gray-500 max-w-2xl mx-auto">
-        A Frontend Developer building modern web experiences with a passion for clean design and user-centric solutions.
+        A Software Developer building modern solutions with a passion for clean design and user-centric solutions.
       </p>
     </section>
   );

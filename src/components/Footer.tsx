@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       <div className="max-w-4xl mx-auto flex flex-col items-center space-y-4">
         <div className="flex space-x-6">
           <Link
-            href="https://github.com/yourusername" // Replace with actual GitHub profile
+            href="http://github.com/stonedcoder"
             target="_blank"
             rel="noopener noreferrer"
             className="text-notion-gray-500 hover:text-notion-accent-blue transition-colors duration-200"
@@ -19,22 +19,13 @@ const Footer: React.FC = () => {
             <Github size={24} strokeWidth={1.5} />
           </Link>
           <Link
-            href="https://linkedin.com/in/yourprofile" // Replace with actual LinkedIn profile
+            href="https://www.linkedin.com/in/raunaq-verma/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-notion-gray-500 hover:text-notion-accent-blue transition-colors duration-200"
             aria-label="LinkedIn"
           >
             <Linkedin size={24} strokeWidth={1.5} />
-          </Link>
-          <Link
-            href="https://twitter.com/yourusername" // Replace with actual Twitter profile
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-notion-gray-500 hover:text-notion-accent-blue transition-colors duration-200"
-            aria-label="Twitter"
-          >
-            <Twitter size={24} strokeWidth={1.5} />
           </Link>
           <Link
             href="mailto:your.email@example.com"
