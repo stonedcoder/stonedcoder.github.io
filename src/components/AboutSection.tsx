@@ -1,8 +1,9 @@
 // src/components/AboutSection.tsx
 
-import React from 'react';
-import { LucideIcon, Rocket, Code, Lightbulb } from 'lucide-react';
-import * as LucideIcons from 'lucide-react'; // Import all icons
+import React, { useRef, useEffect } from 'react';
+import { LucideIcon, Rocket, Code, Lightbulb, Users } from 'lucide-react'; // Added Users icon
+import * as LucideIcons from 'lucide-react';
+import { motion, useInView, useAnimation } from 'framer-motion'; // Added imports
 
 interface CalloutProps {
   icon: string;
@@ -25,8 +26,28 @@ const Callout: React.FC<CalloutProps> = ({ icon, title, description }) => {
 
 
 const AboutSection: React.FC = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start('visible');
+    }
+  }, [isInView, controls]);
+
   return (
-    <section className="py-16">
+    <motion.section
+      ref={ref}
+      className="py-16"
+      variants={{
+        hidden: { opacity: 0, y: 50 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 0.6, delay: 0.2 }}
+    >
       <h2 className="text-4xl font-bold text-notion-text-primary text-center mb-12">About Me</h2>
       <div className="max-w-3xl mx-auto text-notion-text-primary space-y-6">
         <p className="text-lg leading-relaxed">
@@ -59,13 +80,13 @@ const AboutSection: React.FC = () => {
             description="Enjoy tackling complex challenges and devising innovative solutions."
           />
           <Callout
-            icon="Users" // Example icon, need to ensure it's in lucide-react
+            icon="Users"
             title="Collaborative Spirit"
             description="Thrive in team environments, fostering open communication and shared goals."
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
